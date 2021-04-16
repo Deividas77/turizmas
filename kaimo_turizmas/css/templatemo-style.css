@@ -73,6 +73,12 @@ html {
   color:coral;
   font-size: 17px;
 }
+#wrapper ul li h3 
+{
+  margin-left: 30px;
+  color:coral;
+  font-size: 17px;
+}
 #wrapper ul li .details h3 
 {
   margin-right: 20px;
