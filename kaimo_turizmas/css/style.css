@@ -4,9 +4,7 @@ body {
 .page-content {
 	width: 100%;
 	margin:  0 auto;
-	background-image: -moz-linear-gradient( 136deg, rgb(82,86,97) 0%, rgb(136, 136, 136) 100%);
-    background-image: -webkit-linear-gradient( 136deg, rgb(82,86,97) 0%, rgb(136, 136, 136) 100%);
-    background-image: -ms-linear-gradient( 136deg, rgb(82,86,97) 0%, rgb(136, 136, 136) 100%);
+    background-color: #525661 ;
 	display: flex;
 	display: -webkit-flex;
 	justify-content: center;
@@ -22,13 +20,13 @@ body {
 }
 .form-v6-content  {
 	background: #fff;
-	width: 968px;
+	width: 1100px;
 	border-radius: 8px;
 	-o-border-radius: 8px;
 	-ms-border-radius: 8px;
 	-moz-border-radius: 8px;
 	-webkit-border-radius: 8px;
-	margin: 180px 0;
+	margin: 100px 0;
 	font-family: 'Nunito', sans-serif;
 	color: #fff;
 	font-weight: 700;
