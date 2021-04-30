@@ -47,6 +47,13 @@ html {
 .box {
   width: 100%;
 }
+.submit-button{
+  background-color: coral;
+  font-size:14pt;
+  height:50px;
+  width:300px;
+  margin-top: 20%;
+}
 .filter-box{
 
   background-color: white;
@@ -93,6 +100,7 @@ html {
   color:black;
   font-size: 20px;
 }
+
 #wrapper ul li .details h2 
 {
   margin-right: 20px;
@@ -204,6 +212,9 @@ html {
    width:100%;
   padding: 50px;
   }
+  .mytext {
+    margin-left: 200px;
+}
   }
   @media only screen and (min-width:1400px) {
   .items-list {
