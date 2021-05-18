@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Kaimo turizmas</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" />    
+	<link href="css/templatemo-style.css" rel="stylesheet" />
+</head>
+<body> 
+
+	<div class="container">
+	<!-- Top box -->
+		<!-- Logo & Site Name -->
+		<div class="placeholder">
+			<div class="parallax-window"  >
+				<div class="tm-header">
+					<div class="row tm-header-inner">
+						<div class="col-md-6 col-12">
+							<a href="main_logged.html"><img src="img/logotipas.png" alt="Logo" class="tm-site-logo"  /> </a>
+							
+						</div>
+						<nav class="col-md-6 col-12 tm-nav">
+							<ul class="tm-nav-ul">
+								<li class="tm-nav-li"><a href="organizatoriaus_profilis.html" class="tm-nav-link">Mano profilis</a></li>
+								<li class="tm-nav-li"><a href="index.html" class="tm-nav-link">Atsijungti</a></li>
+                                <li class="tm-nav-li"><a href="isimintos_logged.html" class="tm-nav-link">Įsimintos  <span class="fa fa-star checked"></span></a></li>
+							</ul>
+						</nav>	
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<main>
+			<header class="row tm-welcome-section">
+				<img src="img/sodybospaslaugos.png" alt="Sodybos paslaugos"  class="center" />
+				</header>
+			
+			
+
+			
+
+				<div class="row">
+					<div class="column">
+
+				<div Id="wrapper">
+					<section>
+						<ul id="a">
+						 
+						  <li>
+							  <img src="img/gallery/04.jpg" alt="" width=220px id="pic">
+							  <!-- Wrapped into div -->
+							  <div class="details">
+								
+								<h1><u>"Petrauskų sodyba"</u></h1>  
+								<p>Tai puiki vieta švęsti vestuves, gimtadienius, rengti klasiokų, grupiokų, susitikimus bei kitas šventes, ar tiesiog maloniai ir turiningai praleisti laiką su draugais ar šeima.</p>
+								<a href="sodybos_redagavimas.html" style="color: white;" ><h2>Redaguoti</h2></a>
+							  </div>
+							
+						  </li>
+						  <li>
+							  <img src="img/gallery/05.jpg" alt="" width=220px id="pic">
+							  <!-- Wrapped into div -->
+							  <div class="details">
+									
+								<h1><u>Sodyba "Du Horizontai"</u></h1>  
+								<p>Kaimo turizmo sodyba „Du Horizontai“, kurios visuose numeriuose veikia nemokamas belaidis internetas, įsikūrusi prie Dūrių ežero, už 5 km nuo Molėtų centro.</p>
+								<a href="sodybos_redagavimas.html"style="color: white;" ><h2>Redaguoti</h2></a>
+							  </div>
+							
+						  </li>
+						  <br>
+						</ul>
+					  </section>
+				  </div>
+				</div>
+			
+			
+		</main>
+
+		<footer class="tm-footer text-center">
+			<p>All rights reserved "Kaimo turizmas" 2021 &copy; 
+            
+            </p>
+		</footer>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			// Handle click on paging links
+			$('.tm-paging-link').click(function(e){
+				e.preventDefault();
+				
+				var page = $(this).text().toLowerCase();
+				$('.tm-gallery-page').addClass('hidden');
+				$('#tm-gallery-page-' + page).removeClass('hidden');
+				$('.tm-paging-link').removeClass('active');
+				$(this).addClass("active");
+			});
+		});
+	</script>
+</body>
+</html>
